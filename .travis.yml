@@ -1,4 +1,8 @@
 language: perl
 perl:
-  - "5.24.0"
+  - "5.22"
   - "5.25.1"
+before_install:
+  - perlbrew list
+  - perlbrew install --notest --noman $TRAVIS_PERL_VERSION
+  - perlbrew list
