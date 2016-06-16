@@ -184,6 +184,8 @@ L<http://www.ecclestoad.co.uk/>
 
 Contributions welcome: L<https://github.com/evdb/Text-Variations>
 
+TRavis build tests: L<https://travis-ci.org/evdb/Text-Variations>
+
 =head1 LICENCE AND COPYRIGHT
 
 Copyright (c) 2009, Edmund von der Burg C<< <evdb@ecclestoad.co.uk> >>.
