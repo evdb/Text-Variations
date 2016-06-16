@@ -33,13 +33,13 @@ Text::Variations - create many variations of the same message
             "the wrong kind of snow",
         ],
         " - we apologise for any ",
-        [   "inconvenience",                 
-            "disruption to your journey",    
+        [   "inconvenience",
+            "disruption to your journey",
             "missed onward connections",
         ],
         " this may have caused\n"
     );
-    
+
     print $announcement->generate( { platform => 4 } );
 
 =head1 DESCRIPTION
@@ -176,9 +176,13 @@ running service between London Paddington and Newport.
 
 =head1 AUTHOR
 
-Edmund von der Burg C<< <evdb@ecclestoad.co.uk> >>. 
+Edmund von der Burg C<< <evdb@ecclestoad.co.uk> >>.
 
 L<http://www.ecclestoad.co.uk/>
+
+=head1 CONTRIBUTING
+
+Contributions welcome: L<https://github.com/evdb/Text-Variations>
 
 =head1 LICENCE AND COPYRIGHT
 
