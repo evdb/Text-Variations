@@ -153,7 +153,7 @@ sub _interpolate_string {
     my $string = shift;
     my $args   = shift;
 
-    $string =~ s/ {{ (\w+) }} / $args->{$1} /xge;
+    $string =~ s/ \{\{ (\w+) \}\} / $args->{$1} /xge;
     return $string;
 }
 
